@@ -1,3 +1,5 @@
+
+import Head from 'next/head'
 import { FunctionComponent, useEffect, useState } from "react";
 import Layout from "../../components/Layout";
 import Spinner from "../../components/Spinner";
@@ -19,6 +21,12 @@ const Index: FunctionComponent = (props) => {
     
     return (
         <Layout>
+            <Head>
+                <title>Courses</title>
+                <meta property="og:title" content="Courses" key="title" />
+                <meta name="description" 
+                content="See all my available courses!"/>
+            </Head>
             {
                 courses == null ? <Spinner /> : 
                 <div className="flex flex-wrap justify-center space-y-8 xl:space-x-5 mb-10">

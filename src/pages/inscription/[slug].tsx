@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { FunctionComponent, useEffect, useState } from "react";
 import Layout from "../../components/Layout";
 import Spinner from "../../components/Spinner";
@@ -24,8 +25,23 @@ const Index: FunctionComponent = () => {
     
     return (
         <Layout>
-            <div className="flex flex-row flex-wrap justify-around w-full space-y-5">
-                <h1 className="w-full font-bold text-xl">Let's sign you up!</h1>
+            <Head>
+                <title>Inscription</title>
+                <meta property="og:title" content="Inscription" key="title" />
+                <meta name="description" 
+                content="Let's sign you up!"/>
+            </Head>
+            <div className="flex flex-row flex-wrap justify-around items-start w-full space-y-5 mb-10">
+                <div className="flex flex-row flex-wrap justify-center items-start w-full">
+                    <h1 className="w-full font-bold text-xl xl:w-1/2 text-center">Let's sign you up!</h1>
+                    <h1 className="w-full text-base xl:w-1/2 text-center">
+                        You can make your payment via Bank Account Transfer <br/>
+                        <strong className="text-sm text-accent">Cuenta de Ahorro Agricola </strong>
+                        <strong className="text-sm text-blue-600">3112321229 </strong> <br/>
+                        <strong className="text-sm text-blue-600">Walter Rafael Morales Henriquez </strong>
+                        <strong className="text-sm text-accent italic">walterrafael26@gmail.com</strong>
+                    </h1>
+                </div>
                 {
                     course == null ? <Spinner /> : 
                     <div className="mb-10 xl:w-2/6">
