@@ -6,7 +6,9 @@ const Navbar: FunctionComponent = () => {
     const [ showNav, setShowNav ] = useState(false)
 
     var items = [
-        { text: "Courses", redirectTo: "/"}
+        { text: "Home", redirectTo: "/"},
+        { text: "Courses", redirectTo: "/courses"},
+        { text: "Courses Survey", redirectTo: "/survey"}
     ]
 
     return(

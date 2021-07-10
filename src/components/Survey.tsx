@@ -49,9 +49,9 @@ const Survey: FunctionComponent = () => {
             if(submitbtn.current) {
                 submitbtn.current.disabled = true
                 setDisabled(true)
-            }
 
-            console.log(finalRes)
+                console.log(finalRes)
+            }
         })
     }
 

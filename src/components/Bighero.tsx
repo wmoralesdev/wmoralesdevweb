@@ -16,11 +16,21 @@ const Bighero: FunctionComponent = () =>
                 <div className="mt-4">
                     <span className="font-bold italic text-lg w-full text-center md:w-auto">@wmoralesdev</span>
                     <div className="mt-2 space-x-4">
-                        <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faFacebook}/>
-                        <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faTwitter}/>
-                        <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faLinkedin}/>
-                        <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faInstagram}/>
-                        <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faGithub}/>
+                        <a href="https://www.facebook.com/WalterMorales26/" target="_blank">
+                            <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faFacebook}/>
+                        </a>
+                        <a href="https://twitter.com/wmoralesdev" target="_blank">
+                            <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faTwitter}/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/wmoralesdev/" target="_blank">
+                            <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faLinkedin}/>
+                        </a>
+                        <a href="https://www.instagram.com/wmoralesdev/" target="_blank">
+                            <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faInstagram}/>
+                        </a>
+                        <a href="https://github.com/wmoralesdev" target="_blank">
+                            <FontAwesomeIcon className="transition-all duration-300 hover:text-accent rounded-sm" icon={faGithub}/>
+                        </a>
                     </div>
                 </div>
             </div>
