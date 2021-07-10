@@ -1,7 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import nc from 'next-connect'
 import connectDB from '../../../../middleware/mongodb'
-import Course from '../../../models/CourseModel'
+
+const Course = require('../../../models/CourseModel')
 
 const handler = nc<NextApiRequest, NextApiResponse>()
     .get(async (req, res) => {

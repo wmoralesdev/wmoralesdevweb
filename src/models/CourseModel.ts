@@ -1,4 +1,4 @@
-import mongoose, { models } from 'mongoose'
+import mongoose from 'mongoose'
 
 var Course = new mongoose.Schema({
     slug: String,

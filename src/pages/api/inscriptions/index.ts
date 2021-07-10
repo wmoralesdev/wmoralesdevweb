@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import nc from 'next-connect'
 import connectDB from '../../../../middleware/mongodb'
-import Inscription from '../../../models/InscriptionModel'
+const Inscription = require('../../../models/InscriptionModel')
 
 interface IInscriptionRequest extends NextApiRequest {
     body: {
