@@ -11,7 +11,8 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <meta property="og:image" content="/res/meta.png" />
+                    <meta property="og:image" content="https://drive.google.com/file/d/1hQiGloNgiLZuUPMrpyAGzY-RE4Hg_a8p/view?usp=sharing" />
+                    <meta property="twitter:image" content="https://drive.google.com/file/d/1hQiGloNgiLZuUPMrpyAGzY-RE4Hg_a8p/view?usp=sharing" />
                 </Head>
                 <body>
                     <Main />
