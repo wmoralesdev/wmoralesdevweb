@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Head from 'next/head'
 
 import { FunctionComponent } from "react";
 import Layout from "../../components/Layout";
@@ -70,6 +71,12 @@ const ImageWrapper: FunctionComponent<IImageWrapperProps> = ({ img, alt, text, t
 const Index: FunctionComponent = () => {
     return(
         <Layout>
+            <Head>
+                <title>Resume</title>
+                <meta property="og:title" content="Resume" key="title" />
+                <meta name="description" 
+                content="My Experience and Portfolio"/>
+            </Head>
             <div>
                 <h1 className="font-bold text-xl">Education</h1>
                 <div className="w-full flex flex-row flex-wrap items-start">
