@@ -94,7 +94,7 @@ const Index: FunctionComponent = () => {
                     <TextWrapper hover="text-blue-600" icon={faKeyboard} place="Universidad Centroamericana José Simeón Cañas" 
                     education="Lead Instructor in Dynamic Structures, Object Oriented Programming and Algorithm Analysis" 
                     time={`2019 - ${new Date().getFullYear()}`}/>
-                    <TextWrapper hover="text-blue-600" icon={faKeyboard} place="VincuHub" education=".NET Backend Developer" time="Jul 2020 - Oct 2020"/>
+                    <TextWrapper hover="text-blue-600" icon={faKeyboard} place="VincuHub" education=".NET Backend Developer" time="Jul 2019 - Oct 2020"/>
                     <TextWrapper hover="text-blue-600" icon={faKeyboard} place="Elaniin" education="FullStack & .NET Developer" 
                     time={`Nov 2020 - Now (${new Date().getFullYear()})`}/>
                 </div>
