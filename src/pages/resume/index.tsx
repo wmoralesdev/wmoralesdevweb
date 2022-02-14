@@ -131,7 +131,6 @@ const Index: FunctionComponent = () => {
                     <ImageWrapper textColor="text-blue-800" img={c} alt="c" text="C"/>
                     <ImageWrapper textColor="text-blue-500" img={cpp} alt="cpp" text="C++"/>
                     <ImageWrapper textColor="text-accent" img={csharp} alt="csharp" text="C#"/>
-                    <ImageWrapper textColor="text-yellow-600" img={java} alt="java" text="Java"/>
                     <ImageWrapper textColor="text-yellow-800" img={kotlin} alt="kotlin" text="Kotlin"/>
                     <ImageWrapper textColor="text-yellow-400" img={js} alt="js" text="JavaScript"/>
                     <ImageWrapper textColor="text-blue-500" img={ts} alt="ts" text="TypeScript"/>
