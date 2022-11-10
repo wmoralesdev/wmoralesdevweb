@@ -96,7 +96,11 @@ const Index: FunctionComponent = () => {
                     time={`2019 - ${new Date().getFullYear()}`}/>
                     <TextWrapper hover="text-blue-600" icon={faKeyboard} place="VincuHub" education=".NET Backend Developer" time="Jul 2019 - Oct 2020"/>
                     <TextWrapper hover="text-blue-600" icon={faKeyboard} place="Elaniin" education="FullStack & .NET Developer" 
-                    time={`Nov 2020 - Now (${new Date().getFullYear()})`}/>
+                    time={`Nov 2020 - Jan 2022`}/>
+                    <TextWrapper hover="text-blue-600" icon={faKeyboard} place="InnRoad" education="ReactJS & .NET Developer" 
+                    time={`Apr 2021 - Feb 2022`}/>
+                    <TextWrapper hover="text-blue-600" icon={faKeyboard} place="Resultier" education="ReactJS & .NET Developer" 
+                    time={`Apr 2022 - Now (${new Date().getFullYear()})`}/>
                 </div>
             </div>
             <Separator />

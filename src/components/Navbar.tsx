@@ -7,7 +7,7 @@ const Navbar: FunctionComponent = () => {
 
     var items = [
         { text: "Home", redirectTo: "/"},
-        { text: "Courses", redirectTo: "/courses"},
+        // { text: "Courses", redirectTo: "/courses"},
         { text: "Resume", redirectTo: "/resume"}
     ]
 
