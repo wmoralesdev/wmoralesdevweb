@@ -1,0 +1,55 @@
+{
+    "greeting": "Hello, I'm",
+    "profession": "I'm a FullStack Developer",
+    "more-about": "Want to know more about me?",
+    "about": {
+        "education": {
+            "phrase": "Let's start with",
+            "decorated": "my education",
+            "highschool": {
+                "text": "Technical Public Accounting Bachelor's Degree",
+                "title": "Highschool"
+            },
+            "college": {
+                "text": "Computer Science Engineering",
+                "title": "Engineering",
+                "catch": "almost there!"
+            },
+            "platzi": {
+                "text": "Platzi & Facebook Developer Circles Frontend Program",
+                "title": "Certification",
+                "date": "Jan 2020 - Oct 2020"
+            }
+        },
+        "continue": "Now let's see what I've worked on"
+    },
+    "experience": {
+        "phrase": "You guessed it, we'll see my",
+        "decorated": "work experience",
+        "vincu": {
+            "workplace": "VincuHub",
+            "position": ".NET Backend Developer",
+            "description": "In charge of RestFUL APIs development with .NET and .NET Core",
+            "dates": "Jan 2019 - Nov 2020"
+        },
+        "elaniin": {
+            "workplace": "Elaniin",
+            "position": "JS FullStack & .NET Developer",
+            "description": "FullStack development of enterprise software in JS Frameworks, mainly ReactJS and NodeJS but also NextJS and NestJS, .NET Developer primarily.",
+            "dates": "Nov 2020 - Jan 2022"
+        },
+        "innroad": {
+            "workplace": "InnRoad",
+            "position": "ReactJS & .NET Developer",
+            "description": "Working in Hotel Booking Services for big companies and its integrations (Airbnb, Expedia), with a FullStack approach in both technologies (ReactJS + ASP.NET).",
+            "dates": "Apr 2021 - Apr 2022"
+        },
+        "resultier": {
+            "workplace": "Resultier",
+            "position": "ReactJS & .NET Developer",
+            "description": "Developing applications as a FullStack role. Main technologies are .NET and ReactJS, but goes alongside with database management and analytics construction.",
+            "dates": "Apr 2022 - Now"
+        },
+        "continue": "Interested? Contact me!"
+    }
+}
